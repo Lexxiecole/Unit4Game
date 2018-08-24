@@ -3,11 +3,39 @@
 
 //PSUEDOCODING
 
-//first photo connects to javascript
+//Photos connect to javascript
+//onclick is created
 
+
+
+
+
+//cacti 1
 $(document).ready(function() {
     $("#cactus1").on("click", function() {
-        console.log("working")
+        console.log("working1")
+    })
+})
+
+//cacti 2
+$(document).ready(function() {
+    $("#cactus2").on("click", function() {
+        console.log("working2")
+    })
+})
+
+
+//cacti 3
+$(document).ready(function() {
+    $("#cactus3").on("click", function() {
+        console.log("working3")
+    })
+})
+
+//cacti 4
+$(document).ready(function() {
+    $("#cactus4").on("click", function() {
+        console.log("working4")
     })
 })
 
