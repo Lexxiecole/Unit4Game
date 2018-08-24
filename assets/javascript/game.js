@@ -39,8 +39,10 @@ $(document).ready(function() {
 //random number is assigned to the random number box
 
 $(document).ready(function() {
-    $("#randomNumberBox").on("click", function() {
+    $("#randomNumberBox").on("click", function() {          //random number box works on click
         console.log("RANDOM NUMBER BOX WORKING ON CLICK")
+        Math.floor((Math.random() * 100) + 1);
+        console.log("random number")              
     })
 })
 
