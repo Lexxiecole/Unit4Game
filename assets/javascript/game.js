@@ -36,20 +36,63 @@ $(document).ready(function() {
 })
 
 
+
+//nest step
 //random number is assigned to the random number box
 
 $(document).ready(function() {
     $("#randomNumberBox").on("click", function() {          //random number box works on click
         console.log("RANDOM NUMBER BOX WORKING ON CLICK")
         return Math.random();              //random number does not show up on sreen, and no random number is generated. this does show in console log.
-        console.log()                        
+        console.log()          //random number is not being generated, clicks are being recorded.              
     })
 })
 
-//crystal is clicked
 
-
+//next step
 //random number is assigned to crystal---i probably should limit the numbers that can be chosen ( a certain height)
+
+
+                        //cacti1
+                        $(document).ready(function() {
+                            $("#cactus1").on("click", function() {          //random number box works on click
+                                console.log("RANDOM cacti 1 WORKING ON CLICK")
+                                return Math.random();              //random number does not show up on sreen, and no random number is generated. this does show in console log.
+                                console.log()        //random number is not generated, clicks re being recorded.                
+                            })
+                        })
+
+                        //cacti2
+                        $(document).ready(function() {
+                            $("#cactus2").on("click", function() {          //random number box works on click
+                                console.log("RANDOM cacti 1 WORKING ON CLICK")
+                                return Math.random();              //random number does not show up on sreen, and no random number is generated. this does show in console log.
+                                console.log()        //random number is not generated, clicks re being recorded.                
+                            })
+                        })
+
+                        //cacti3
+                        $(document).ready(function() {
+                            $("#cactus3").on("click", function() {          //random number box works on click
+                                console.log("RANDOM cacti 1 WORKING ON CLICK")
+                                return Math.random();              //random number does not show up on sreen, and no random number is generated. this does show in console log.
+                                console.log()        //random number is not generated, clicks re being recorded.                
+                            })
+                        })
+
+                        //cacti4
+                        $(document).ready(function() {
+                            $("#cactus4").on("click", function() {          //random number box works on click
+                                console.log("RANDOM cacti 1 WORKING ON CLICK")
+                                return Math.random();              //random number does not show up on sreen, and no random number is generated. this does show in console log.
+                                console.log()        //random number is not generated, clicks re being recorded.                
+                            })
+                        })
+
+
+
+
+
 
 //random number assigned to crystal is shown in box???
 
