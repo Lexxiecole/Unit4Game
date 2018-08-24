@@ -41,8 +41,8 @@ $(document).ready(function() {
 $(document).ready(function() {
     $("#randomNumberBox").on("click", function() {          //random number box works on click
         console.log("RANDOM NUMBER BOX WORKING ON CLICK")
-        Math.floor((Math.random() * 100) + 1);              //random number does not show up on sreen, and no random number is generated. this does show in console log.
-        console.log("random number")                        
+        return Math.random();              //random number does not show up on sreen, and no random number is generated. this does show in console log.
+        console.log()                        
     })
 })
 
