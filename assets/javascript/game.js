@@ -40,14 +40,14 @@ $(document).ready(function() {
 //next step
 //random number is assigned to the random number box
 
-$(document).ready(function() {
-    $("#randomNumberBox").on("click", function() {          //random number box works on click
-        console.log("RANDOM NUMBER BOX WORKING ON CLICK")
-        math.floor(Math.random("number");              //random number does not show up on sreen, and no random number is generated. this does show in console log.
-        console.log()          //random number is not being generated, clicks are being recorded.              
-      
-    })    
-    })
+                                                        // $(document).ready(function() {
+                                                        //     $("#randomNumberBox").on("click", function() {          //random number box works on click
+                                                        //         console.log("RANDOM NUMBER BOX WORKING ON CLICK")
+                                                        //         math.floor(Math.random("number");              //random number does not show up on sreen, and no random number is generated. this does show in console log.
+                                                        //         console.log()          //random number is not being generated, clicks are being recorded.              
+                                                            
+                                                        //     })    
+                                                        //     })
 
 //next step
 //random number is assigned to crystal---i probably should limit the numbers that can be chosen ( a certain height)
