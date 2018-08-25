@@ -9,8 +9,16 @@
 //cacti 1
 $(document).ready(function() {
     $("#cactus1").on("click", function() {
-        console.log("working1")   
-    })  
+        console.log("working1")                         //click function works for cactus 1
+    
+    //     function () {
+    //         var cacti1number = Math.floor((Math.random() * 150) + 1);
+    //         $("cacti1number").text(x);
+    //         console.log(cacti1number)
+    //     }
+    // })  
+
+    
     $("#cactus2").on("click", function() {
         console.log("working2")
     })
@@ -19,20 +27,16 @@ $(document).ready(function() {
     })
     $("#cactus4").on("click", function() {
         console.log("working4")
-    })
+    }) 
     $("#randomNumberBox").on("click", function() {          //random number box works on click
         console.log("RANDOM NUMBER BOX WORKING ON CLICK")
-        $('#numbobox').text(Math.floor((Math.random() * 15) + 1))
+        $("#numbobox").text(Math.floor((Math.random() * 150) + 1))
     }) 
+    $("#addedNumberBox") {
+        $("addednumbobox").text(cacti1number+cacti2number+cacti3number+cacti4number)
+    }
 })
 
-
-
-function myFunction() {
-    var cacti1number = Math.floor((Math.random() * 150) + 1);
-    $("cacti1number").text(x);
-    console.log("YO")
-}
 
 
 //loop tht generates a random number
@@ -81,19 +85,11 @@ function myFunction() {
 //if a win happens, it starts "raining!"
 
 
+//this works!!! use it!!!
 
-
-
-
-
-
-                                    if (cactipoints === radnomnumber) {
-                                    
-                                       $('body').css('background-image', 'url(../images/rain)');
-                                    }
-
-//if it starts raining, audio by lil wayne plays
-
+            // if (cactipoints === radnomnumber) {
+            // $('body').css('background-image', 'url(../images/rain)');
+            // }
 //if the total score reaches a higher number than the random number, a loss happens.
 
 //when game restarts, the number of games played goes up by one.
