@@ -1,7 +1,7 @@
 
 
 #background {
-
+background-color:hotpink;
 
 }
 
@@ -29,10 +29,11 @@
     border-color: green;
     margin: 5px;
     font-family: 'Playfair Display', serif;
-    font-size: 12px;
+    font-size: 15px;
     text-align: left;
     padding: 10px;
     clear: both;
+    background-color:white;
 }
 
 #randomNumberBox {
@@ -47,6 +48,7 @@
     text-align: center;
     text-align-last: center;
     float: left;
+    background-color:white;
 }
 
 #addedNumberBox {
@@ -61,6 +63,7 @@
     text-align: center;
     text-align-last: center;
     float: left;
+    background-color:white;
     
 }
 
@@ -76,6 +79,7 @@
     text-align: center;
     text-align-last: center;
     float: left;
+    background-color:white;
 }
 
 #cactiDivz {
@@ -85,6 +89,7 @@
     padding: 10px;
     clear: both;
     width: 838px;
+    background-color:white;
 }
 
 

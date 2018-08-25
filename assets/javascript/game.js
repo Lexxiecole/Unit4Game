@@ -13,6 +13,11 @@ $(document).ready(function() {
     })
 })
 
+
+
+
+
+
 //cacti 2
 $(document).ready(function() {
     $("#cactus2").on("click", function() {
@@ -65,11 +70,17 @@ $(document).ready(function() {
 
 //random number assigned to crystal is shown in box???
 
-//each time a crystal is clicked, its random number adds to the total score
+//each time a cacti is clicked, its random number adds to the total score
 
 //if the total score reaches the same exact number as the random number chosen, a win happens
 
 //if a win happens, it starts "raining!"
+
+if (cacti1number === radnomnumber) {
+    $(document).ready(function() {
+        $('body').css('background-image', 'url(../images/rain)');
+    });
+}
 
 //if it starts raining, audio by lil wayne plays
 
