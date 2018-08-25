@@ -15,6 +15,11 @@ $(document).ready(function() {
 
 
 
+function myFunction() {
+    var cacti1number = Math.floor((Math.random() * 150) + 1);
+    document.getElementById("cacti1number").innerHTML = x;
+    console.log("YO")
+
 
 
 
@@ -38,7 +43,7 @@ $(document).ready(function() {
     $("#cactus4").on("click", function() {
         console.log("working4")
     })
-})
+
 
 
 
@@ -58,14 +63,14 @@ $(document).ready(function() {
 //random number is assigned to crystal---i probably should limit the numbers that can be chosen ( a certain height)
 
 
-                        //cacti1
-                        $(document).ready(function() {
-                            $("#cactus1").on("click", function() {          //random number box works on click
-                                console.log("RANDOM cacti 1 WORKING ON CLICK")
-                                return Math.random();              //random number does not show up on sreen, and no random number is generated. this does show in console log.
-                                console.log()        //random number is not generated, clicks re being recorded.                
-                            })
-                        })
+                                                                    // //cacti1
+                                                                    // $(document).ready(function() {
+                                                                    //     $("#cactus1").on("click", function() {          //random number box works on click
+                                                                    //         console.log("RANDOM cacti 1 WORKING ON CLICK")
+                                                                    //         return Math.random();              //random number does not show up on sreen, and no random number is generated. this does show in console log.
+                                                                    //         console.log()        //random number is not generated, clicks re being recorded.                
+                                                                    //     })
+                                                                    // })
 
 
 //random number assigned to crystal is shown in box???
@@ -76,18 +81,17 @@ $(document).ready(function() {
 
 //if a win happens, it starts "raining!"
 
-if (cacti1number === radnomnumber) {
-    $(document).ready(function() {
-        $('body').css('background-image', 'url(../images/rain)');
-    });
-}
+                                    // if (cacti1number === radnomnumber) {
+                                    //     $(document).ready(function() {
+                                    //         $('body').css('background-image', 'url(../images/rain)');
+                                    //     });
+                                    // }
 
 //if it starts raining, audio by lil wayne plays
 
 //if the total score reaches a higher number than the random number, a loss happens.
 
 //when game restarts, the number of games played goes up by one.
-
 
 
 //make sure all photos work together to add numbers??
