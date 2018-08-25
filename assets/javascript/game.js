@@ -21,6 +21,9 @@ $(document).ready(function() {
     
     $("#cactus2").on("click", function() {
         console.log("working2")
+        return Math.random(); {
+            console.log()
+        }
     })
     $("#cactus3").on("click", function() {
         console.log("working3")
@@ -32,9 +35,9 @@ $(document).ready(function() {
         console.log("RANDOM NUMBER BOX WORKING ON CLICK")
         $("#numbobox").text(Math.floor((Math.random() * 150) + 1))
     }) 
-    $("#addedNumberBox") {
-        $("addednumbobox").text(cacti1number+cacti2number+cacti3number+cacti4number)
-    }
+ //   $("#addedNumberBox") {
+ //       $("addednumbobox").text(cacti1number+cacti2number+cacti3number+cacti4number)
+ //   }
 })
 
 
@@ -60,17 +63,7 @@ $(document).ready(function() {
 
 
 //next step
-//random number is assigned to crystal---i probably should limit the numbers that can be chosen ( a certain height)
-
-
-                                                                    // //cacti1
-                                                                    // $(document).ready(function() {
-                                                                    //     $("#cactus1").on("click", function() {          //random number box works on click
-                                                                    //         console.log("RANDOM cacti 1 WORKING ON CLICK")
-                                                                    //         return Math.random();              //random number does not show up on sreen, and no random number is generated. this does show in console log.
-                                                                    //         console.log()        //random number is not generated, clicks re being recorded.                
-                                                                    //     })
-                                                                    // })
+//random number is assigned to cacti---i probably should limit the numbers that can be chosen ( a certain height)
 
 
 //random number assigned to crystal is shown in box???
