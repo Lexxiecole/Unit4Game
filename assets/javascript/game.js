@@ -37,7 +37,7 @@ $(document).ready(function() {
 
 
 
-//nest step
+//next step
 //random number is assigned to the random number box
 
 $(document).ready(function() {
