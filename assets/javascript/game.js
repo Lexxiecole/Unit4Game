@@ -77,6 +77,9 @@ $(document).ready(function() {
 
 //each time a cacti is clicked, its random number adds to the total score
 
+var cactipoints = cacti1number + cacti2number + cacti3number +cacti4number
+
+
 //if the total score reaches the same exact number as the random number chosen, a win happens
 
 //if a win happens, it starts "raining!"
