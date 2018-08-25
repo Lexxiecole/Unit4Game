@@ -1,6 +1,5 @@
 
 
-
 #cactusCollector {
     height: 75px;
     width: 400px;
@@ -11,6 +10,8 @@
     font-size: 45px;
     text-align: center;
     padding: 10px;
+    float: left;
+    Clear: both;
 }
 
 #directions {
@@ -23,6 +24,7 @@
     font-size: 12px;
     text-align: left;
     padding: 10px;
+    clear: both;
 }
 
 #randomNumberBox {
@@ -32,29 +34,77 @@
     border-color: green;
     margin: 5px;
     padding: 10px;
-    align: right;
     font-family: 'Lobster';
-    font-size: 40px;
+    font-size: 25px;
     text-align: center;
     text-align-last: center;
+    float: left;
 }
+
+#addedNumberBox {
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-color: green;
+    margin: 5px;
+    padding: 10px;
+    font-family: 'Lobster';
+    font-size: 25px;
+    text-align: center;
+    text-align-last: center;
+    float: left;
+    
+}
+
+#winsLossesBox {
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-color: green;
+    margin: 5px;
+    padding: 10px;
+    font-family: 'Lobster';
+    font-size: 25px;
+    text-align: center;
+    text-align-last: center;
+    float: left;
+}
+
+#cactiDivz {
+    border-style: solid;
+    border-color: green;
+    margin: 5px;
+    padding: 10px;
+    clear: both;
+    width: 838px;
+}
+
+
 
 #cactus1 {
     height: 200px;
     width: 200px;
+    border-style: solid;
+    border-color: green;
 }
 
 #cactus2 {
     height: 200px;
     width: 200px;
+    border-style: solid;
+    border-color: green;
 }
 
 #cactus3 {
     height: 200px;
     width: 200px;
+    border-style: solid;
+    border-color: green;
 }
 
 #cactus4 {
     height: 200px;
     width: 200px;
+    border-style: solid;
+    border-color: green;
 }
