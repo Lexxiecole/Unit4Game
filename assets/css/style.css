@@ -1,8 +1,14 @@
 
 
+#background {
+    background-image: url("assets/images/cacti2.jpeg");
+    opacity: 50%;
+}
+ /*background image isnt working*/
+
 #cactusCollector {
     height: 75px;
-    width: 400px;
+    width: 522.2px;
     border-style: solid;
     border-color: green;
     margin:5px;
@@ -16,7 +22,7 @@
 
 #directions {
     height: 175px;
-    width: 400px;
+    width: 522.2px;
     border-style: solid;
     border-color: green;
     margin: 5px;

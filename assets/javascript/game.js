@@ -69,6 +69,10 @@ $(document).ready(function() {
 
 //if the total score reaches the same exact number as the random number chosen, a win happens
 
+//if a win happens, it starts "raining!"
+
+//if it starts raining, audio by lil wayne plays
+
 //if the total score reaches a higher number than the random number, a loss happens.
 
 //when game restarts, the number of games played goes up by one.
