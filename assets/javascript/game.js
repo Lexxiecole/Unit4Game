@@ -14,6 +14,9 @@ $(document).ready(function() {
 
     var cactusFour = Math.floor((Math.random() * 12) + 1)
     console.log(cactusFour);
+
+    var numboBox = Math.floor((Math.random() * 150) + 1)
+    console.log(numboBox);
     
     var cactiPrick = 0;
 
@@ -48,51 +51,16 @@ $(document).ready(function() {
         $("#ccactiPointzNumba").text(cactiPrick)
     })
 
-    $("#randomNumberBox").on("click", function() {          //random number box works on click
+    $("#randomNumberBox").on("click", function() { 
         console.log("RANDOM NUMBER BOX WORKING ON CLICK")
         $("#numbobox").text(Math.floor((Math.random() * 150) + 1))
     }) 
 
     if (numbobox === cactiPrick) {
-    $('body').css('background-image', 'url(../images/rain)');
+    $("background").css("background-image", "url(../images/rain)");
     //else if (numbobox === cactiPrick + 1) {
     //    $("losses").text(++);
     //}
     }
 
 })
-
-//loop tht generates a random number
-//then attaches (by an attribute-- you could use value, or data-value) the elements to a cacti
-
-
-
-//next step
-//random number is assigned to the random number box
-
-//next step
-//random number is assigned to cacti---i probably should limit the numbers that can be chosen ( a certain height)
-
-
-//random number assigned to crystal is shown in box???
-
-//each time a cacti is clicked, its random number adds to the total score
-
-//if the total score reaches the same exact number as the random number chosen, a win happens
-
-//if a win happens, it starts "raining!"
-
-
-//this works!!! use it!!!
-
-            // if (cactipoints === radnomnumber) {
-            // $('body').css('background-image', 'url(../images/rain)');
-            // }
-
-            
-//if the total score reaches a higher number than the random number, a loss happens.
-
-//when game restarts, the number of games played goes up by one.
-
-
-//make sure all photos work together to add numbers??
