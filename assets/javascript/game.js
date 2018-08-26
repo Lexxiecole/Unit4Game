@@ -42,28 +42,40 @@ $(document).ready(function() {
         console.log (cactiPrick) 
         $("#ccactiPointzNumba").text(cactiPrick)
     })                                       //click function works for cactus 1
-    
 
     $("#cactus2").on("click", function() {
-        console.log("working2")
-        return Math.random(); {
-            console.log()
-        }
+        //console.log("working2")
+        cactiPrick = cactiPrick + cactusTwo;
+        console.log (cactiPrick) 
+        $("#ccactiPointzNumba").text(cactiPrick)
     })
     $("#cactus3").on("click", function() {
-        console.log("working3")
+       // console.log("working3")
+       cactiPrick = cactiPrick + cactusThree;
+       console.log (cactiPrick) 
+       $("#ccactiPointzNumba").text(cactiPrick)
     })
     $("#cactus4").on("click", function() {
         console.log("working4")
+        cactiPrick = cactiPrick + cactusFour;
+        console.log (cactiPrick) 
+        $("#ccactiPointzNumba").text(cactiPrick)
     })
 
     $("#randomNumberBox").on("click", function() {          //random number box works on click
         console.log("RANDOM NUMBER BOX WORKING ON CLICK")
         $("#numbobox").text(Math.floor((Math.random() * 150) + 1))
     }) 
- //   $("#addedNumberBox") {
- //       $("addednumbobox").text(cacti1number+cacti2number+cacti3number+cacti4number)
- //   }
+
+    if (numbobox === cactiPrick) {
+    $('body').css('background-image', 'url(../images/rain)');
+    //else if (numbobox === cactiPrick + 1) {
+    //    $("losses").text(++);
+    //}
+    }
+
+
+
 
 
 })
