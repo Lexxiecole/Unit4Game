@@ -19,19 +19,15 @@ $(document).ready(function() {
     console.log(numboBox);
     
     var cactiPrick = 0;
-
     var wins = 0;
     var losses = 0;
 
-
-    //cactus1
     $("#cactus1").on("click", function() {
         //console.log("working1")
         cactiPrick = cactiPrick + cactusOne;
         console.log (cactiPrick) 
         $("#ccactiPointzNumba").text(cactiPrick)
-    })                                       //click function works for cactus 1
-
+    })                        
     $("#cactus2").on("click", function() {
         //console.log("working2")
         cactiPrick = cactiPrick + cactusTwo;
@@ -51,10 +47,8 @@ $(document).ready(function() {
         $("#ccactiPointzNumba").text(cactiPrick)
     })
 
-    $("#randomNumberBox").on("click", function() { 
-        console.log("RANDOM NUMBER BOX WORKING ON CLICK")
-        $("#numbobox").text(Math.floor((Math.random() * 150) + 1))
-    }) 
+    $("#randomNumberBox").text("show") 
+        console.log(numboBox)
 
     if (numbobox === cactiPrick) {
     $("background").css("background-image", "url(../images/rain)");
