@@ -31,6 +31,9 @@ $(document).ready(function() {
     
     var cactiPrick = 0;
 
+    var wins = 0;
+    var losses = 0;
+
 
     //cactus1
     $("#cactus1").on("click", function() {
@@ -41,18 +44,6 @@ $(document).ready(function() {
     })                                       //click function works for cactus 1
     
 
-
-
-    //     function () {
-    //         var cacti1number = Math.floor((Math.random() * 150) + 1);
-    //         $("cacti1number").text(x);
-    //         console.log(cacti1number)
-    //     }
-    // })
-    
-    
-
-    
     $("#cactus2").on("click", function() {
         console.log("working2")
         return Math.random(); {
