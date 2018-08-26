@@ -1,19 +1,5 @@
 
 
-
-//c\careate your  9 vars
-
-
-
-
-
-
-
-//PSUEDOCODING
-
-//Photos connect to javascript
-//onclick is created for each photo
-
 //cacti 1
 $(document).ready(function() {
     //create variables
@@ -56,7 +42,7 @@ $(document).ready(function() {
        $("#ccactiPointzNumba").text(cactiPrick)
     })
     $("#cactus4").on("click", function() {
-        console.log("working4")
+        //console.log("working4")
         cactiPrick = cactiPrick + cactusFour;
         console.log (cactiPrick) 
         $("#ccactiPointzNumba").text(cactiPrick)
@@ -73,10 +59,6 @@ $(document).ready(function() {
     //    $("losses").text(++);
     //}
     }
-
-
-
-
 
 })
 
