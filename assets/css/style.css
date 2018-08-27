@@ -88,36 +88,34 @@ background-color:hotpink;
     margin: 5px;
     padding: 10px;
     clear: both;
-    width: 838px;
+    width: 522.2px;
     background-color:white;
 }
 
-
-
 #cactus1 {
-    height: 200px;
-    width: 200px;
+    height: 120px;
+    width: 120px;
     border-style: solid;
     border-color: green;
 }
 
 #cactus2 {
-    height: 200px;
-    width: 200px;
+    height: 120px;
+    width: 120px;
     border-style: solid;
     border-color: green;
 }
 
 #cactus3 {
-    height: 200px;
-    width: 200px;
+    height: 120px;
+    width: 120px;
     border-style: solid;
     border-color: green;
 }
 
 #cactus4 {
-    height: 200px;
-    width: 200px;
+    height: 120px;
+    width: 120px;
     border-style: solid;
     border-color: green;
 }

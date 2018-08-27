@@ -52,8 +52,9 @@ $(document).ready(function() {
 
     if (numbobox === cactiPrick) {
     $("background").css("background-image", "url(../images/rain)");
-    //else if (numbobox === cactiPrick + 1) {
-    //    $("losses").text(++);
+    $("wins").text(wins);
+    else (numbobox === cactiPrick + 1) {
+    $("losses").text(losses;
     //}
     }
 
