@@ -2,9 +2,9 @@
 
 #background {
 background-color:hotpink;
+align: center;
 
 }
-
 
 #cactusCollector {
     height: 75px;
@@ -44,11 +44,12 @@ background-color:hotpink;
     margin: 5px;
     padding: 10px;
     font-family: 'Lobster';
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     text-align-last: center;
     float: left;
-    background-color:white;
+    background-image:url("../images/cacti 1.jpeg");
+    vertical-align: center;
 }
 
 #addedNumberBox {
@@ -59,11 +60,12 @@ background-color:hotpink;
     margin: 5px;
     padding: 10px;
     font-family: 'Lobster';
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     text-align-last: center;
     float: left;
-    background-color:white;
+    background-image:url("../images/cacti 1.jpeg");;
+    vertical-align: center;
     
 }
 
@@ -75,11 +77,12 @@ background-color:hotpink;
     margin: 5px;
     padding: 10px;
     font-family: 'Lobster';
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     text-align-last: center;
     float: left;
-    background-color:white;
+    background-image:url("../images/cacti 1.jpeg");
+    vertical-align: center;
 }
 
 #cactiDivz {
@@ -89,7 +92,7 @@ background-color:hotpink;
     padding: 10px;
     clear: both;
     width: 522.2px;
-    background-color:white;
+    background-image:url("../images/cacti3.jpg");
 }
 
 #cactus1 {
